@@ -1,0 +1,23 @@
+algorithme facture 
+variables i,nbr:entier 
+          s,pda,prix_totale , tva:  reel
+          tableau t(1): chaine de caractere
+Debut 
+    pour i<------- 0 à 1 Pas 1 faire 
+        Ecrire("Donner le nom de client")
+        Lire(t(i))
+        Ecrire("Donner le nombre d’article du client")
+        Lire(nbr)
+        s<-------- 0
+        prix_totale<-------- 0
+        pour j <---------- 0 ò nbr Pas 1 faire 
+            Ecrire("Donner le prix d'article:")
+            Lire(pda)
+            s<------- s+v 
+            tva <------ s*0,15
+            prix_totale <------ s-(s*0,02)+tva
+        fin pour
+    fin pour
+fin
+
+
